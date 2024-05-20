@@ -3,10 +3,44 @@
     margin: 50px;
 }
 
+.date-picker-wrapper {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 450px;
+}
+
+.date-picker-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
 .date-picker-input {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 200px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.confirmation-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    animation: fadeIn 0.5s ease-in-out;
 }
