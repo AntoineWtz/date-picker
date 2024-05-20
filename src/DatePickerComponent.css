@@ -1,0 +1,12 @@
+.date-picker-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.date-picker-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
